@@ -1,6 +1,29 @@
 {
-    "compilerOptions": {
-      "jsx": "react",
-      "noImplicitAny": false
-    }
-  }
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/emails/open-customer-issue.jsx", "src/emails/blue-cat-reports.jsx", "src/emails/google-ads-mtd.jsx", "src/emails/time-in-list.jsx"],
+  "exclude": ["node_modules"]
+}

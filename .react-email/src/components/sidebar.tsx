@@ -1,10 +1,10 @@
-import { Logo } from './logo';
-import * as React from 'react';
-import classnames from 'classnames';
-import Link from 'next/link';
-import { Heading } from './heading';
 import * as Collapsible from '@radix-ui/react-collapsible';
+import classnames from 'classnames';
 import { LayoutGroup, motion } from 'framer-motion';
+import Link from 'next/link';
+import * as React from 'react';
+import { Heading } from './heading';
+import { Logo } from './logo';
 
 type SidebarElement = React.ElementRef<'aside'>;
 type RootProps = React.ComponentPropsWithoutRef<'aside'>;
@@ -97,7 +97,7 @@ export const Sidebar = React.forwardRef<SidebarElement, Readonly<SidebarProps>>(
                           <Link key={item} href={`/preview/${item}`}>
                             <motion.span
                               className={classnames(
-                                'text-[14px] flex items-center font-medium gap-2 w-full pl-4 h-8 rounded-md text-slate-11 relative block transition ease-in-out duration-200',
+                                'text-[14px] flex items-center font-medium gap-2 w-full pl-4 h-8 rounded-md text-slate-11 relative transition ease-in-out duration-200',
                                 {
                                   'text-cyan-11': isCurrentPage,
                                   'hover:text-slate-12': title !== item,

@@ -72,9 +72,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: [
-          '"Inter var", sans-serif',
-        ],
+        sans: ['var(--font-inter)', ...fontFamily.sans],
       },
       keyframes: {
         shine: {

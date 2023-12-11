@@ -1,27 +1,15 @@
-# React Email Starter
+# Custom Email Templates with React
 
-A live preview right in your browser so you don't need to keep sending real emails during development.
+Demo for tutorial [Create Custom Email Templates with React Email](https://www.youtube.com/watch?v=D4pS4b9-DgA)
 
-## Getting Started
+📺 YouTube: https://www.youtube.com/watch?v=D4pS4b9-DgA
 
-First, install the dependencies:
+📝 Article: https://kdta.io/7nzEh
 
-```sh
-npm install
-# or
-yarn
-```
+## More tutorials and walkthroughs
 
-Then, run the development server:
+🐦 [Follow me on Twitter](https://twitter.com/colbyfayock)
 
-```sh
-npm run dev
-# or
-yarn dev
-```
+📺 [Subscribe on YouTube](https://www.youtube.com/colbyfayock)
 
-Open [localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## License
-
-MIT License
+✉️ [Sign Up for My Newsletter](https://colbyfayock.com/newsletter)
